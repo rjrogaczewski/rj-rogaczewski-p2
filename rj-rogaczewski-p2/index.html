@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- Program in English -->
+<html lang="en" dir = "ltr">
+    <!-- Main header -->
+    <head>
+        <meta charset = "UTF-8">
+        <title>Sports Trivia | Game</title>
+        <link rel = "stylesheet" type = "text/css" href = "https://fonts.googleapis.com/css?family=Open+Sans">
+        <link rel = "stylesheet" href = "styles.css">
+    </head>
+
+    <body>
+        <div class="banner">
+            <!-- Game Banner for user to see clearly -->
+            <h1>*Sports Trivia*</h1>
+        </div>
+        <div class="containers">
+            <div class="questions">
+                <!-- Asking Question 1 of 3 -->
+                <h2>Question 1</h2>
+                <hr>
+                <h3>What is the name of the Major League Baseball team located in Los Angeles?</h3>
+                <p id="decision1"></p>
+                <!-- Buttons are used to select an answer -->
+                <button id="Correct1">Dodgers</button>
+                <button id="Incorrect1">Brewers</button>
+                <button id="Incorrect1">Rangers</button>
+                <button id="Incorrect1">Yankees</button>
+                <!-- Initializing correct and incorrect -->
+                <!-- Creating a function that displays correct and incorrect answers -->
+                <script>
+                    let Correct1 = document.querySelector('#Correct1');
+                    let Incorrect1 = document.querySelector('#Incorrect1');
+                    let decision1 = document.querySelector('#decision1');
+                </script>
+            </div>
+            <!-- Question 2 of 3 -->
+            <div class="questions">
+                <h2>Question 2</h2>
+                <hr>
+                <h3>What NBA team does Stephen Curry play for?</h3>
+                <p id="decision2"></p>
+                <button id="Correct2">Warriors</button>
+                <button id="Incorrect2">Bucks</button>
+                <button id="Incorrect2">Bulls</button>
+                <button id="Incorrect2">Timberwolves</button>
+                <script>
+                    let Correct2 = document.querySelector('#Correct2');
+                    let Incorrect2 = document.querySelector('#Incorrect2');
+                    let decision2 = document.querySelector('#decision2');
+                </script>
+            </div>
+            <div class="questions">
+                <!-- Question 3 of 3 -->
+                <h2>Question 3</h2>
+                <hr>
+                <h3>When did the Milwaukee Bucks last win the NBA Finals?</h3>
+                <p id="decision3"></p>
+                <button id="Correct3">2021</button>
+                <button id="Incorrect3">1972</button>
+                <button id="Incorrect3">2011</button>
+                <button id="Incorrect3">2017</button>
+                <script>
+                    let Correct3 = document.querySelector('#Correct3');
+                    let Incorrect3 = document.querySelector('#Incorrect3');
+                    let decision3 = document.querySelector('#decision3');
+                </script>
+            </div>
+        </div>
+        <script src = "scripts.js" charset = "UTF-8"></script>
+        <footer>Final Project Sports Trivia</footer>
+    </body>
+</html>
+
+

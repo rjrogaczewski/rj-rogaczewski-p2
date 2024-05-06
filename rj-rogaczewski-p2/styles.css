@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+    color: red;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.25;
+    margin: 0;
+    text-align: left;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.banner {
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+}
+.questions {
+    padding: 1rem 2.5rem 1.5rem 2.5rem;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+button {
+    background-color: white;
+    border: 1px solid red;
+    line-height: 2;
+    border-radius: 0.5rem;
+    font-weight: 300;
+    font-size: 1rem;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+footer {
+    text-align: right;
+}
